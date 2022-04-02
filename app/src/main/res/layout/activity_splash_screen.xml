@@ -4,29 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#40BFFF"
     tools:context=".SplashScreenActivity">
 
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="172dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="244dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.464"
         app:srcCompat="@drawable/singleiconwhite" />
 
     <ProgressBar
-        style="?android:attr/progressBarStyleInverse"
+        style="@android:style/Widget.DeviceDefault.Light.ProgressBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="32dp"
+        android:foregroundTint="#FAF9F9"
         android:indeterminate="true"
+        android:progressBackgroundTint="#FFFFFF"
+        android:progressBackgroundTintMode="screen"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        tools:layout_editor_absoluteX="0dp">
+        tools:layout_editor_absoluteX="16dp">
 
     </ProgressBar>
 
