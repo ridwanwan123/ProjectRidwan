@@ -8,7 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="utama">#223263</color>
+    <color name="utama">#40BFFF</color>
     <color name="primaryDark">#223263</color>
     <color name="neutralDark">#EBF0FF</color>
 </resources>
