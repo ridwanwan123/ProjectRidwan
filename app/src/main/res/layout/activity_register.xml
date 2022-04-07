@@ -18,7 +18,7 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/poppins"
+        android:fontFamily="@font/poppins_bold"
         android:text="Let’s Get Started"
         android:textFontWeight="700"
         android:layout_marginTop="16dp"
@@ -104,11 +104,11 @@
         android:paddingLeft="20dp" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button"
+        android:id="@+id/btnRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sign Up"
-        android:fontFamily="@font/poppins"
+        android:fontFamily="@font/poppins_bold"
         android:textStyle="bold"
         android:layout_marginTop="30dp"
         android:layout_marginRight="20dp"
