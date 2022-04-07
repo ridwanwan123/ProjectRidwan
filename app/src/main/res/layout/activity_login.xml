@@ -83,4 +83,48 @@
       android:textAllCaps="false"
       android:textColor="@color/white"
       android:background="@drawable/bg_button"/>
+
+  <TextView
+      android:id="@+id/textView3"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:layout_marginTop="10dp"
+      android:text="- OR -" />
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/btnGoogle"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Login with Google"
+      android:fontFamily="@font/poppins"
+      android:textStyle="bold"
+      android:textSize="18dp"
+      android:layout_marginTop="20dp"
+      android:layout_marginRight="20dp"
+      android:layout_marginLeft="20dp"
+      android:textAllCaps="false"
+      android:background="@drawable/bg_withlogin"
+      android:drawableLeft="@drawable/google"
+      android:paddingLeft="20dp"
+      android:textColor="@color/utama"
+      />
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/btnFacebook"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Login with Facebook"
+      android:fontFamily="@font/poppins"
+      android:textStyle="bold"
+      android:textSize="18dp"
+      android:layout_marginTop="20dp"
+      android:layout_marginRight="20dp"
+      android:layout_marginLeft="20dp"
+      android:textAllCaps="false"
+      android:background="@drawable/bg_withlogin"
+      android:drawableLeft="@drawable/facebook"
+      android:paddingLeft="20dp"
+      android:textColor="@color/utama"/>
+
 </LinearLayout>
