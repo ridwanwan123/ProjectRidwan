@@ -60,8 +60,9 @@
             android:layout_gravity="center"
             android:layout_marginTop="4dp"
             android:scaleType="fitXY"
+            app:circularflow_defaultRadius="40dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintHorizontal_bias="0.505"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/linearLayout"
             app:srcCompat="@drawable/promotionimage"
@@ -81,6 +82,51 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/imageView2"
             tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/bg_white"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center"
+            android:text="08"
+            android:textColor="@color/primaryDark"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/bg_white"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center"
+            android:text="34"
+            android:textColor="@color/primaryDark"
+            android:textSize="18dp"
+            app:layout_constraintStart_toEndOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/bg_white"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center"
+            android:text="52"
+            android:textColor="@color/primaryDark"
+            android:textSize="18dp"
+            app:layout_constraintStart_toEndOf="@+id/textView6"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
